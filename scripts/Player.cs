@@ -86,4 +86,9 @@ public partial class Player : CharacterBody2D
             _animatedSprite.Play("jump");
         }
     }
+    
+    public override string ToString()
+    {
+        return $"Player: Position = {Position}, Velocity = {Velocity}";
+    }
 }

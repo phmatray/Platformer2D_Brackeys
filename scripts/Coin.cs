@@ -32,5 +32,9 @@ public partial class Coin : Area2D
         _gameManager.AddPoint();
         _animationPlayer.Play("pickup");
     }
-    
+
+    public override string ToString()
+    {
+        return "Coin";
+    }
 }

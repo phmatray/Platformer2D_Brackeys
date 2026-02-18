@@ -54,4 +54,9 @@ public partial class Slime : Node2D
         var x = Direction * Speed * delta;
         Position += new Vector2(x, 0);
     }
+    
+    public override string ToString()
+    {
+        return $"Slime: Direction = {Direction}";
+    }
 }

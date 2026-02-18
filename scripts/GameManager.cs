@@ -36,4 +36,9 @@ public partial class GameManager : Node
     {
         _scoreLabel.Text = $"You collected {Score} coins!";
     }
+
+    public override string ToString()
+    {
+        return $"GameManager: Score = {Score}";
+    }
 }

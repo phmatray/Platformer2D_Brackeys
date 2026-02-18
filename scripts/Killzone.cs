@@ -33,4 +33,9 @@ public partial class Killzone : Area2D
         Engine.TimeScale = 1;
         GetTree().ReloadCurrentScene();
     }
+    
+    public override string ToString()
+    {
+        return "Killzone";
+    }
 }
