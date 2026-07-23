@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **This repository has moved.** The code now lives in **[phmatray/godot-games](https://github.com/phmatray/godot-games)** under [`platformer`](https://github.com/phmatray/godot-games/tree/main/platformer) — full git history preserved. This repository is archived (read-only).
+
 ![Platformer2D_Brackeys banner](.github/banner.png)
 
 # Platformer 2D
